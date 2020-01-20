@@ -1,6 +1,8 @@
 # Decision-Tree-on-Iris-dataset-for-multiclass-classification
 Exploring disicion tree on iris dataset
 
+Data source: https://archive.ics.uci.edu/ml/datasets/iris
+
 The below link is used to implement decision tree:
 https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html
 
@@ -24,3 +26,27 @@ But there is no much difference as to which of these two criteria to be used and
 https://www.unine.ch/files/live/sites/imi/files/shared/documents/papers/Gini_index_fulltext.pdf
 
 One possible reason why gini is the default value in scikit-learn is that entropy might be a little slower to compute (because it makes use of a logarithm).
+
+
+### Results:
+Validation Accuracy 1: 0.9666666666666667
+
+Validation Accuracy 2: 0.9666666666666667
+
+Validation Accuracy 3: 0.9666666666666667
+
+Validation Accuracy 4: 0.9666666666666667
+
+*column feature importance*
+
+2       petal_length    0.584546
+
+3       petal_width     0.389133
+
+1       sepal_width     0.018801
+
+0       sepal_length    0.007520
+
+
+
+
