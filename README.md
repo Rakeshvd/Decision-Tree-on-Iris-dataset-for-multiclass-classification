@@ -37,6 +37,8 @@ Validation Accuracy 3: 0.9666666666666667
 
 Validation Accuracy 4: 0.9666666666666667
 
+To check which is important:
+
 *column feature importance*
 
 2       petal_length    0.584546
@@ -47,6 +49,6 @@ Validation Accuracy 4: 0.9666666666666667
 
 0       sepal_length    0.007520
 
-
+We can see that patel lenght is most important and so is at the Root Node
 
 
